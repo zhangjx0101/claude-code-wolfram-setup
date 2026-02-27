@@ -44,7 +44,7 @@
 
 1. 打开 https://www.wolfram.com/engine/
 2. 点击 "Get Free License"
-3. 用邮箱注册账号（本次使用：`zhangjx@stu.zuel.edu.cn`）
+3. 用邮箱注册账号
 4. 在邮箱中点击验证链接，完成账号注册
 
 ### 3.2 下载 Wolfram Engine
