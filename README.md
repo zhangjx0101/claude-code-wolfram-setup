@@ -1,4 +1,26 @@
-# Wolfram Engine 安装与 Claude Code 集成指南
+<h1 align="center">Claude Code × Wolfram Engine</h1>
+
+<p align="center">
+  <strong>将 Wolfram Engine 集成到 Claude Code，为学术研究提供精确的符号计算能力。</strong>
+</p>
+
+<p align="center">
+  <a href="https://www.wolfram.com/engine/"><img src="https://img.shields.io/badge/wolfram-engine%2014.3-red?style=flat-square&logo=wolfram" alt="Wolfram Engine 14.3"></a>
+  <a href="https://docs.anthropic.com/en/docs/claude-code"><img src="https://img.shields.io/badge/claude--code-compatible-blue?style=flat-square&logo=anthropic" alt="Claude Code"></a>
+  <a href="#"><img src="https://img.shields.io/badge/platform-Windows%2010-lightgrey?style=flat-square" alt="Windows 10"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-yellow?style=flat-square" alt="License"></a>
+</p>
+
+<p align="center">
+  <a href="#一为什么需要-wolfram-engine">为什么需要</a> •
+  <a href="#二wolfram-engine-vs-mathematica">对比 Mathematica</a> •
+  <a href="#三安装步骤">安装步骤</a> •
+  <a href="#五claude-code-调用方式">调用方式</a> •
+  <a href="#七完整工作流示例">工作流示例</a> •
+  <a href="#八已知问题与应对方案">已知问题</a>
+</p>
+
+---
 
 **生成时间：** 2026年2月27日
 
@@ -431,3 +453,7 @@ $Failed
 | `not activated` | 未完成激活 | 运行 `wolframscript.exe -activate` |
 | `TeXForm[...]` 未求值 | 使用了 `// TeXForm` 后缀语法 | 改用 `ToString[TeXForm[...]]` |
 | 首次调用很慢 | Wolfram 内核冷启动 | 正常现象，首次约需 5-15 秒，后续会快一些 |
+
+## Related
+
+- [Vibe Modelling](https://github.com/zhangjx0101/vibe-modelling) — Full Claude Code workflow for theoretical economics papers built on this integration
