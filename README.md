@@ -1,6 +1,10 @@
 <h1 align="center">🐺 Claude Code × Wolfram Engine</h1>
 
 <p align="center">
+  <img src="assets/claude-code-wolfram-setup.png" alt="Claude Code × Wolfram Engine" width="500">
+</p>
+
+<p align="center">
   <strong>将 Wolfram Engine 集成到 Claude Code，为学术研究提供精确的符号计算能力。</strong>
 </p>
 
