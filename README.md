@@ -1,7 +1,7 @@
 <h1 align="center">🐺 Claude Code × Wolfram Engine</h1>
 
 <p align="center">
-  <img src="assets/claude-code-wolfram-setup.png" alt="Claude Code × Wolfram Engine" width="500">
+  <img src="assets/claude-code-wolfram-setup.png" alt="Claude Code × Wolfram Engine" width="700">
 </p>
 
 <p align="center">
